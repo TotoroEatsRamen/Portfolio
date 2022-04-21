@@ -10,7 +10,12 @@
   border-color: red;*/
 }
 
-.heromain, .hero, .herosub, .herobtn, .heroimg {
+.heromain {
+  border: 1px;
+  border-style: solid;
+  border-color: red;
+}
+.hero, .herosub, .herobtn, .heroimg {
   border: 1px;
   border-style: solid;
   border-color: greenyellow;
@@ -31,6 +36,7 @@
 header {
   background-color: #1F2937;
   color: #F9FAF8;
+  min-height: 350px;
 }
 
 /*nav*/
@@ -43,7 +49,7 @@ header {
 .headerlogo {
   margin-left: 10%;
   font-size: 24px;
-  font-weight: 900;
+  font-weight: 700;
   display: flex;
   align-items: center;
 }
@@ -69,10 +75,6 @@ a {
 }
 
 /*Hero*/
-.heromain, .hero, .herosub, .herobtn, .heroimg {
-  display: flex;
-  flex-flow: row wrap;
-}
 
 
 
