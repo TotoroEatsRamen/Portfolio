@@ -1,0 +1,48 @@
+* {
+  /*border: 2px;
+  border-style: solid;
+  border-color: red;*/
+}
+
+.nav {
+  border: 2px;
+  border-style: solid;
+  border-color: red;
+}
+
+.headerlinks {
+  border: 2px;
+  border-style: solid;
+  border-color: greenyellow;
+}
+ul {
+  border: 2px;
+  border-style: solid;
+  border-color: blue;
+}
+
+/* ABOVE HERE IS FOR BORDERS OF ITEMS TO BUILD FLEX BOX BETTER*/
+
+/*Global or shared Items*/ 
+
+
+
+
+/*Header*/
+.nav {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+ul {
+  display: flex;
+}
+
+
+/*Main Content*/ 
+
+
+
+
+
+/*Footer*/
